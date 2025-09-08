@@ -8,11 +8,10 @@ class Program
         //Changed to float so decimals could be used. BYUI grades are in floats. Need to add message for not putting in a number later. 
         float grade = float.Parse(Console.ReadLine());
 
-        string letter;
-
-
         //Note to Self:
         //Start High if using Greater than, Start Low if using Less than in the chain.
+        string letter; //Must declare variable before if/elif/else but it does not need to be assigned a value
+
         if (grade >= 90)
         {
             letter = "A";
