@@ -8,7 +8,7 @@ class Word
     public Word(string text)
     {
         _text = text;
-        _isHidden = false; //you should start with everything beeing visable
+        _isHidden = false; //you should start with everything beeing seen
     }
 
     public void Hide()
