@@ -14,7 +14,7 @@ public class Activity
     public void StartMessage()
     {
         Console.Clear();
-        Console.WriteLine($"Welcome to the {_name} activity.");
+        Console.WriteLine($"Welcome to the {_name} activity."); //Why can't i make this sound NOT like a robot???
         Console.WriteLine(_description);
         Console.Write("How many seconds would you like your session to last? ");
         _duration = int.Parse(Console.ReadLine());
@@ -27,7 +27,7 @@ public class Activity
     {
         Console.WriteLine("Well done!");
         ShowSpinner(4);
-        Console.WriteLine($"You have completed {_duration} seconds of the {_name} activity.");
+        Console.WriteLine($"You have completed {_duration} seconds of the {_name} activity."); //Again with the robot. woof. 
         ShowSpinner(4);
     }
 
