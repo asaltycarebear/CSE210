@@ -1,0 +1,2 @@
+//one meathod to get random prompt from list, and list as many as  you can think of in set time.
+//meathod for getting user input, and count the ammount of items entered. Will count number of times ENTER was inputed.
