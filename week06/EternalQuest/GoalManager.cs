@@ -139,7 +139,7 @@ public class GoalManager
 
     public void SaveGoals()
     {
-        using (StreamWriter output = new StreamWriter("goals.txt"))
+        using (StreamWriter output = new StreamWriter("goals.txt")) // need to change to CSV later, but I got too deep and am not sure all the places I need to change it. 
         {
             output.WriteLine(_score);
             foreach (Goal g in _goals)
